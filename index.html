@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="./partials/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <title>Github Pages</title>
+  </head>
+  <body>
+    <div class="container">
+      <section id="hero-section" class="hero-section">
+        <a href=""><img src="./assets/img/logo.svg" alt="" /></a>
+        <a href="https://docs.github.com/en/pages" class="pages-help">
+          Pages Help</a
+        >
+        <h1>Websites for you and your projects.</h1>
+        <h2>
+          Hosted direcly from your
+          <a href="https://github.com/">GitHub repository. </a>Just edit, push,
+          and your changes are live.
+        </h2>
+        <div class="hero-img">
+          <img
+            src="https://pages.github.com//images/slideshow/semanticui.png"
+            alt="hero-img"
+          />
+        </div>
+      </section>
+      <section id="tutorial-content">
+        <div class="row">
+          <h1 style="color: black">
+            Ready to get started? Build your own site from scratch or generate
+            one for your project.
+          </h1>
+          <h2>
+            You get one site per GitHub account and organization,<br />and
+            unlimited project sites. Let`s get started.
+          </h2>
+          <ul class="tabs-custom">
+            <li class="selected">User or organization site</li>
+            <li>Project Side</li>
+          </ul>
+          <!-- <div class="row"> -->
+          <ul class="steps-one">
+            <li class="step-one-info">
+              <h4>Create a repository</h4>
+              <p class="text">
+                Head over to <a href="https://github.com">GitHub</a> and
+                <a data-proofer-ignore="true" href="https://github.com/new"
+                  >create a new public repository</a
+                >
+                named <em>username</em>.github.io, where <em>username</em> is
+                your username (or organization name) on GitHub.
+              </p>
+              <p class="detail">
+                If the first part of the repository doesn’t exactly match your
+                username, it won’t work, so make sure to get it right.
+              </p>
+              <div class="box-number">
+                <h4>1</h4>
+              </div>
+            </li>
+            <li class="info-img">
+              <img src="./assets/img/user-repo@2x.png" alt="" />
+            </li>
+          </ul>
+          <div class="box">
+            <div class="card">
+              <h4>What git client are you using?</h4>
+              <ul class="Tabs">
+                <li class="selected">A Terminal</li>
+                <li class="center">GitHub Desktop</li>
+                <li>I don't know</li>
+              </ul>
+              <div class="box-number">
+                <h4 style="color: white; font-size: 30px">?</h4>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h4>Clone the repository</h4>
+              <p>
+                Go to the folder where you want to store your project, and clone
+                the new repository:
+              </p>
+              
+              <div class="box-terminal">
+
+                <div class="header-terminal"></div>
+                <div class="terminal">
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>git
+                    clone
+                    https://github.com/<em>username</em>/<em>username</em>.github.io
+                  </p>
+                </div>
+              </div>
+              <div class="box-number">
+                <h4 style="color: white; font-size: 30px">3</h4>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h4>Hello World</h4>
+              <p>Enter the project folder and add an index.html file:</p>
+              
+              <div class="box-terminal">
+
+                <div class="header-terminal"></div>
+                <div class="terminal">
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>cd
+                    <em>username</em>.github.io
+                  </p>
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>echo
+                    "Hello World" > index.html
+                  </p>
+                </div>
+              </div>
+              <div class="box-number">
+                <h4 style="color: white; font-size: 30px">6</h4>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h4>Push it</h4>
+              <p>Add, commit, and push your changes:</p>
+              
+              <div class="box-terminal">
+                <div class="header-terminal"></div>
+                <div class="terminal">
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>git
+                    add --all
+                  </p>
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>git
+                    commit -m "fix production :)"
+                  </p>
+                  <p>
+                    <span class="path">~</span><span class="prompt">$</span>git
+                    push -u origin main
+                  </p>
+                </div>
+              </div>
+             
+              <div class="box-number">
+                <h4 style="color: white; font-size: 30px">8</h4>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h4>…and you're done!</h4>
+              <p>
+                Fire up a browser and go to
+                <strong>https://<em>username</em>.github.io</strong>.
+              </p>
+              <div class="box-number">
+                <h4 style="color: white; font-size: 30px">10</h4>
+              </div>
+              <div class="icon-sukses">
+                <i class="bi bi-check-lg"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="next-steps">
+        <div class="row">
+          <h1 style="color: black">
+            Now that you’re up and running, here are a few things you should
+            know.
+          </h1>
+          <ul class="next-steps-card-group">
+            <ol class="next-steps-card">
+              <a
+                class="icon-next-steps"
+                href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll"
+              >
+                <i class="bi bi-pencil-fill icons"></i>
+              </a>
+              <h4>
+                <a
+                  href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll"
+                  >Blogging with Jekyll</a
+                >
+              </h4>
+              <p>
+                Using <a href="https://jekyllrb.com">Jekyll</a>, you can blog
+                using beautiful Markdown syntax, and without having to deal with
+                any databases.
+                <a href="https://jekyllrb.com/docs/"
+                  >Learn how to set up Jekyll</a
+                >.
+              </p>
+            </ol>
+            <ol class="next-steps-card">
+              <a
+                class="icon-next-steps"
+                href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site"
+              >
+                <i class="bi bi-link-45deg icons"></i>
+              </a>
+              <h4>
+                <a
+                  href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site"
+                  >Custom URLs</a
+                >
+              </h4>
+              <p>
+                Want to use your own custom domain for a GitHub Pages site? Just
+                create a file named CNAME and include your URL.
+                <a
+                  href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site"
+                  >Read more</a
+                >.
+              </p>
+            </ol>
+            <ol class="next-steps-card">
+              <a class="icon-next-steps" href="https://docs.github.com/pages">
+                <i class="bi bi-book icons"></i>
+              </a>
+              <h4><a href="https://docs.github.com/pages">Guides</a></h4>
+              <p>
+                Learn how to create custom 404 pages, use submodules, and
+                <a href="https://docs.github.com/pages"
+                  >learn more about GitHub Pages</a
+                >.
+              </p>
+            </ol>
+          </ul>
+        </div>
+      </section>
+
+      <!-- <hr> -->
+      <footer>
+        <ul class="footer-links" style="list-style: none">
+          <li>&copy; 2024 <span>GitHub</span>, Inc.</li>
+          <li>
+            <a
+              href="https://docs.github.com/en/github/site-policy/github-terms-of-service"
+              >Terms</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
+              >Privacy</a
+            >
+          </li>
+          <li><a href="https://github.com/security">Security</a></li>
+          <li><a href="https://support.github.com">Contact</a></li>
+        </ul>
+
+        <a href="/">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <ul class="footer-links">
+          <li><a href="https://www.githubstatus.com/">Status</a></li>
+          <li><a href="https://docs.github.com/rest">API</a></li>
+          <li><a href="https://training.github.com">Training</a></li>
+          <li><a href="https://shop.github.com">Shop</a></li>
+          <li><a href="https://github.blog">Blog</a></li>
+          <li><a href="https://github.com/about">About</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script>
+      // alert("Website ini hanya untuk penugasan akademik dan merupakan hasil slicing.");
+    </script>
+  </body>
+</html>
