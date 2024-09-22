@@ -1,7 +1,6 @@
-
 # Replikasi Github Pages
 ### Irez Abdullah
-Demo Website: 
+#### Demo Website:  https://demo.rezweb.my.id/msib-task1/
 
 ## Screenshots
 
